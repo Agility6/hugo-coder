@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "Agility Blog"
+title = "Agility"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -14,13 +14,13 @@ style = "github-dark"
 [params]
   author = "Agility"
   info = "Frontend Developer"
-  avatarurl = "./images/avatar.jpg"
+  avatarurl = "/images/avatar.jpg"
   # gravatar = "john.doe@example.com"
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  favicon_32 = "/images/favicon-32x32.png"
+  favicon_16 = "/images/favicon-16x16.png"
 
-  since = 2019
+  since = 2020
 
   enableTwemoji = true
 
@@ -40,21 +40,17 @@ style = "github-dark"
 # Social links
 [[params.social]]
   name = "Github"
-  icon = "fa fa-github fa-2x"
+  icon = "fa fa-github fa-1x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/Agility6/"
 [[params.social]]
   name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+  icon = "fa fa-twitter fa-1x"
+  weight = 2
+  url = "https://twitter.com/Tang86d/"
 
 # Menu links
 [[menu.main]]
   name = "Blog"
   weight = 1
   url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
