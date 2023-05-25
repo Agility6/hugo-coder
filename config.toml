@@ -12,7 +12,7 @@ disqusShortname = "yourdiscussshortname"
 style = "base16-snazzy"
 [params]
   author = "Agility"
-  info = "Frontend Developer"
+  info = "Developer"
   avatarurl = "/images/avatar.jpg"
   # gravatar = "john.doe@example.com"
 
